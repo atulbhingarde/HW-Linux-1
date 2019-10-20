@@ -25,6 +25,8 @@ For this assignment, you'll use your Ubuntu Virtual Machine.
   - Add `Tina` and `Ollie` to the `sudo` and `adm` groups.
 
 When you're done, run: `cut -d: -f1 /etc/passwd | xargs groups` and take a screenshot. This command will show all users, along with the groups they're in. **You'll submit this screenshot as proof of your solution.**
+
+_** Please note the script UserMgmt.sh used the GroupUsers.txt and removed the users and created thm again with groups etc assigned to them except the group adm and sudo **_
 ![groups listed](groups_listed.png)
 
 
