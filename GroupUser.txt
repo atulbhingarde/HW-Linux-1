@@ -1,0 +1,4 @@
+students: Andy, Ollie, Gene, Jimmy, Teddy
+teachers: Tina, Louise, Ollie
+sudo: Tina, Ollie
+adm: Tina, Ollie
