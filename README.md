@@ -25,6 +25,8 @@ For this assignment, you'll use your Ubuntu Virtual Machine.
   - Add `Tina` and `Ollie` to the `sudo` and `adm` groups.
 
 When you're done, run: `cut -d: -f1 /etc/passwd | xargs groups` and take a screenshot. This command will show all users, along with the groups they're in. **You'll submit this screenshot as proof of your solution.**
+![groups listed](group_listed.png)
+
 
 ### Part II: Restricting Sudo Access
 - Use `visudo` to update `/etc/sudoers` such that `Teddy` and `Louise` can _only_ run `apt` with `sudo`.
