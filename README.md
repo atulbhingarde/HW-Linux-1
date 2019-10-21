@@ -26,7 +26,7 @@ For this assignment, you'll use your Ubuntu Virtual Machine.
 
 When you're done, run: `cut -d: -f1 /etc/passwd | xargs groups` and take a screenshot. This command will show all users, along with the groups they're in. **You'll submit this screenshot as proof of your solution.**
 
-** Please note the script _UserMgmt.sh_ uses the _GroupUsers.txt_ and removes the users and createds them again with groups etc assigned to them except the group adm and sudo _ **
+** Please note the script _UserMgmt.sh_ uses the _GroupUsers.txt_ and removes the users and createds them again with groups etc assigned to them except the group adm and sudo foliwng outout is of the command _members GroupName_ where _GroupName_ is a specific groupname like _students, teachers, adm or sudo_ **
 ![groups listed](groups_listed.png)
 
 
